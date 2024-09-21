@@ -72,8 +72,3 @@ Feel free to open issues or submit pull requests for any features or fixes.
 ## License
 
 This project is licensed under the MIT License.
-
-```
-
-Feel free to update the repository link and any other details to fit your project!
-```
