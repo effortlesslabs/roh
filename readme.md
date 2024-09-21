@@ -1,6 +1,5 @@
 Here's the README converted into Markdown format:
 
-````markdown
 # OpenAI CLI
 
 A simple command-line interface (CLI) for interacting with OpenAI's API to fetch completions and generate responses in Markdown format. Built using Rust.
@@ -15,11 +14,11 @@ A simple command-line interface (CLI) for interacting with OpenAI's API to fetch
 
 1. **Install Rust**: Make sure you have Rust installed. If not, you can install it from [rustup.rs](https://rustup.rs/).
 2. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/yourusername/openai-cli.git
    cd openai-cli
    ```
-````
 
 3. **Build the Project**:
    ```bash
