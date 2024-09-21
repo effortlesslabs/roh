@@ -1,5 +1,3 @@
-Here's the README converted into Markdown format:
-
 # OpenAI CLI
 
 A simple command-line interface (CLI) for interacting with OpenAI's API to fetch completions and generate responses in Markdown format. Built using Rust.
