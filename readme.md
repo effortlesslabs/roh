@@ -15,19 +15,43 @@ A simple command-line interface (CLI) for interacting with OpenAI's API to fetch
 
    ```bash
    git clone https://github.com/yourusername/openai-cli.git
-   cd openai-cli
-   ```
-
-3. **Build the Project**:
-   ```bash
-   cargo build --release
-   ```
-4. **(Optional) Install the CLI Globally**:
-   ```bash
-   cargo install --path .
+   cd roh-cli
    ```
 
 ## Usage
+
+To build and use your Rust CLI in the terminal, follow these steps:
+
+1. **Build Your CLI**:
+   Navigate to your Rust project directory in the terminal and run:
+
+   ```bash
+   cargo build --release
+   ```
+
+   This command compiles your CLI and places the executable in the `target/release` directory.
+
+2. **Run Your CLI**:
+   You can run the CLI directly from the terminal using:
+
+   ```bash
+   ./target/release/roh
+   ```
+
+3. **Add to PATH** (optional):
+   If you want to use your CLI globally without specifying the path, you can add the `target/release` directory to your `PATH` environment variable or move the binary to a directory that is already in your `PATH`, like `/usr/local/bin`:
+
+   ```bash
+   mv ./target/release/roh /usr/local/bin/
+   ```
+
+4. **Make It Executable** (if necessary):
+   If you're on Unix-like systems, you might need to make the binary executable:
+   ```bash
+   chmod +x /usr/local/bin/roh
+   ```
+
+Now you should be able to run your CLI from anywhere in the terminal by just typing `roh`.
 
 ### Configuration
 

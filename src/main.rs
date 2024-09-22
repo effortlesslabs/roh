@@ -3,7 +3,6 @@ mod markdown;
 mod config;
 
 use openai::ask_openai;
-use markdown::print_markdown;
 use std::env;
 use crate::config::Config;
 
@@ -16,7 +15,7 @@ async fn main() {
             let question = &args[2];
             let config = Config::load().expect("API key not set. Please run 'roh config'");
             match ask_openai(&config, question).await {
-                Ok(markdown) => print_markdown(&markdown),
+                Ok(_) => {}
                 Err(err) => eprintln!("Error fetching response: {}", err),
             }
         }
