@@ -1,4 +1,4 @@
-# OpenAI CLI
+# Roh CLI
 
 A simple command-line interface (CLI) for interacting with OpenAI's API to fetch completions and generate responses in Markdown format. Built using Rust.
 
